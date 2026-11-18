@@ -11,7 +11,7 @@ def calculate_total(items):
 def print_receipt(items):
     print("购物清单")
     for item in items:
-        print(f'{item["name"]} x {item["quantity"]}')
+        print(f'商品-{item["name"]} x 的价格为： {item["quantity"]}')
     print(f"合计：{calculate_total(items):.2f} 元")
 
 
